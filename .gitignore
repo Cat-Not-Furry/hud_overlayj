@@ -1,0 +1,8 @@
+# * Esencial para todo repositorio (Los archivos que git debe ignorar)
+bindings.*
+.python-version
+.venv
+uv.lock
+
+# ! Evita publicar este
+__pycache__/
